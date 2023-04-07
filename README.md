@@ -15,6 +15,7 @@ Using the negative natural logarithm of arc weights, the stated condition can be
 ### Example
 
 As an example, assume the following exchange rates between currency pairs:
+<center>
 
 |          | **GBP** | **EUR** | **YEN** | **CHF** | **USD**  | **GOLD** |
 |----------|---------|---------|---------|---------|----------|----------|
@@ -25,11 +26,13 @@ As an example, assume the following exchange rates between currency pairs:
 | **USD**  |         |         | 120     | 1.3941  | 1        | 0.003065 |
 | **Gold** | 205     |         |         | 455.2   | 322      | 1        |
 
+</center>
+
 This leads to the following digraph (now with negative natural logarithm of arc weights):
 
 ![Drag Racing](img/negative_ln_weights.png)
 
-A trading sequence of $EUR \rightarrow USD \rightarrow CHF \rightarrow EUR$ leads to a net gain of around 0.0008397 EUR:
+A trading sequence of $EUR \rightarrow USD \rightarrow CHF \rightarrow EUR$  leads to a net gain of around 0.0008397 EUR:
 1.0752 * 1.3941 * 0.6677 = 1.0008397... > 1.
 
 Compare also to the negative cycle in the modified digraph with the sum of arc weights = -0.000839428....
