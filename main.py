@@ -149,8 +149,7 @@ class Arc():
         self.arc_weight = arc_weight
         self.arc_head = to_node
         self.arc_tail = from_node
-        # self.log_arc_weight = float(arc_weight)
-        self.log_arc_weight = -math.log(float(self.arc_weight), 2)
+        self.log_arc_weight = -math.log(float(self.arc_weight))
 
 
 if __name__ == "__main__":
