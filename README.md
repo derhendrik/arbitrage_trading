@@ -28,7 +28,7 @@ As an example, assume the following exchange rates between currency pairs:
 
 </div>
 
-This leads to the following digraph (now with negative natural logarithm of arc weights):
+This leads to the following digraph (now using the negative natural logarithm of arc weights):
 
 ![Drag Racing](img/negative_ln_weights.png)
 
