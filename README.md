@@ -37,7 +37,7 @@ A trading sequence of $EUR \rightarrow USD \rightarrow CHF \rightarrow EUR$  lea
 
 Compare also to the negative cycle in the modified digraph with the sum of arc weights = -0.000839428....
 
-This also corresponds to our previously determined net gain: $e^0.000839428 = 1.0008397...$.
+This also corresponds to our previously determined net gain: $e^{0.000839428} = 1.0008397$.
 
 
 ### Installation
