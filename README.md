@@ -6,4 +6,4 @@ opportunities on foreign exchange markets.
 
 Given a directed graph where nodes represent currencies and arc weights
 represent exchange rates between two currencies, the goal is to identify cycles that yield a net profit.
-Given a cycle $C = [e_{i,j}, e_{j,k}, ... , e_{n,i}]$, it 
+Given a sequence of edges that determine a cycle $C$, it has to hold that $\Product_{c \in C}$
