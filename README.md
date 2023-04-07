@@ -33,6 +33,7 @@ This leads to the following digraph (now using the negative natural logarithm of
 ![Drag Racing](img/negative_ln_weights.png)
 
 A trading sequence of $EUR \rightarrow USD \rightarrow CHF \rightarrow EUR$  leads to a net gain of around 0.0008397 EUR:
+
 1.0752 * 1.3941 * 0.6677 = 1.0008397... > 1.
 
 Compare also to the negative cycle in the modified digraph with the sum of arc weights = -0.000839428....
