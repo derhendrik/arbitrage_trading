@@ -11,6 +11,9 @@ Given a sequence of arcs that determine a cycle $C$, it has to hold that $\Pi_{c
 
 Using the negative natural logarithm of arc weights, the stated condition can be reformulated as $\sum_{c \in C} -ln(w_c) < 0 $.
 
+
+### Example
+
 As an example, assume the following exchange rates between currency pairs:
 
 |          | **GBP** | **EUR** | **YEN** | **CHF** | **USD**  | **GOLD** |
@@ -25,6 +28,14 @@ As an example, assume the following exchange rates between currency pairs:
 This leads to the following digraph (now with negative natural logarithm of arc weights):
 
 ![Drag Racing](img/negative_ln_weights.png)
+
+A trading sequence of $EUR \rightarrow USD \rightarrow CHF \rightarrow EUR$ leads to a net gain of around 0.0008397 EUR:
+1.0752 * 1.3941 * 0.6677 = 1.0008397... > 1.
+
+Compare also to the negative cycle in the modified digraph with the sum of arc weights = -0.000839428....
+
+This also corresponds to our previously determined net gain: $e^0.000839428 = 1.0008397...$.
+
 
 ### Installation
 The code requires the following Python modules to be installed:
