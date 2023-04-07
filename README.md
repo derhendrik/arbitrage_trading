@@ -9,7 +9,7 @@ represent exchange rates between two currencies, the goal is to identify cycles 
 
 Given a sequence of arcs that determine a cycle $C$, it has to hold that $\Pi_{c \in C} \ w_c > 1$ where $w_c$ is the arc weight of arc $c$.
 
-Using the negative natural logarithm of arc weights, the stated condition can be reformulated as $\sum_{c \in C} \ -ln(w_c) < 0 $.
+Using the negative natural logarithm of arc weights, the stated condition can be reformulated as $\sum_{c \in C} -ln(w_c) < 0 $.
 
 ### Installation
 The code requires `openpyxl` and `graphviz`, see also `requirements.txt`.
