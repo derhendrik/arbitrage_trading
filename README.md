@@ -15,7 +15,7 @@ Using the negative natural logarithm of arc weights, the stated condition can be
 ### Example
 
 As an example, assume the following exchange rates between currency pairs:
-<center>
+<div align="center">
 
 |          | **GBP** | **EUR** | **YEN** | **CHF** | **USD**  | **GOLD** |
 |----------|---------|---------|---------|---------|----------|----------|
@@ -26,7 +26,7 @@ As an example, assume the following exchange rates between currency pairs:
 | **USD**  |         |         | 120     | 1.3941  | 1        | 0.003065 |
 | **Gold** | 205     |         |         | 455.2   | 322      | 1        |
 
-</center>
+</div>
 
 This leads to the following digraph (now with negative natural logarithm of arc weights):
 
